@@ -1,0 +1,224 @@
+
+
+
+#jerico_img {
+    width: 630px;
+    height: 730px;
+}
+
+#friday_img {
+    height: 400px;
+}
+
+#mark_img {
+    height: 471px; 
+}
+
+#ultron_img {
+    height: 400px;
+}
+
+#jarvis_img {
+    height: 430px;
+}
+
+
+/* Project Pages Styles */
+.project-details {
+    max-width: 1200px;
+    margin: 80px auto 0;
+    padding: 2rem;
+}
+
+.project-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.project-subtitle {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.project-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.project-image {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(100, 255, 218, 0.1);
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-description {
+    padding: 2rem;
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.tech-list li {
+    background: rgba(100, 255, 218, 0.1);
+    color: var(--accent-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.project-details-section {
+    margin-top: 4rem;
+    padding: 2rem;
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+.code-example {
+    margin-top: 2rem;
+    background: rgba(10, 25, 47, 0.8);
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.code-example code {
+    font-family: 'Fira Code', monospace;
+    color: var(--text-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-overview {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .project-details {
+        margin-top: 60px;
+        padding: 1rem;
+    }
+
+    .project-description {
+        padding: 1.5rem;
+    }
+}
+
+/* About Page Styles */
+.about {
+    max-width: 1200px;
+    margin: 80px auto 0;
+    padding: 2rem;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+}
+
+.skill {
+    background: rgba(100, 255, 218, 0.1);
+    color: var(--accent-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Contact Page Styles */
+.contact {
+    max-width: 800px;
+    margin: 80px auto 0;
+    padding: 2rem;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--accent-color);
+}
+
+.form-group input,
+.form-group {
+    width: 100%;
+    padding: 0.8rem;
+    background: rgba(10, 25, 47, 0.8);
+    border: 1px solid rgba(100, 255, 218, 0.1);
+    border-radius: 4px;
+    color: var(--text-color);
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background: transparent;
+    color: var(--accent-color);
+    padding: 0.8rem 2rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: rgba(100, 255, 218, 0.1);
+    box-shadow: 0 0 20px rgba(100, 255, 218, 0.2);
+}
+
+.contact-info {
+    padding: 2rem;
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+

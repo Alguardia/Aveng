@@ -1,0 +1,95 @@
+/***************************page login**********************************/ 
+
+
+
+#form_login {
+  max-width: 400px;
+  margin:20px auto;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--card-bg);
+  box-shadow: 0 0 30px rgba(100, 255, 218, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 5px var(--accent-color);
+}
+
+button {
+  padding: 10px 20px;
+  background: rgba(100, 255, 218, 0.1);
+  color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+
+#center_echo {
+
+  text-align: center;
+  color: #ff6b6b; 
+  font-size: 0.9rem;
+}
+
+
+.form{
+max-width: 500px;
+margin: auto; 
+border-radius: 10px;
+padding: 20px;
+}
+
+.register-a {
+  text-align: center;
+
+}
+
+.register-a a {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  background: rgba(100, 255, 218, 0.1);
+  color: var(--accent-color);
+  border-radius: 10px;       
+  text-decoration: none;    
+ 
+}
+
+
+.register-a a:hover {
+background-color: var(--accent-color);
+color: var(--primary-color);
+}
+
+

@@ -1,0 +1,79 @@
+
+/***************************page about**********************************/ 
+
+
+
+section.about {
+    max-width: 900px;
+    margin: 50px auto; /* Centrer horizontalement la section */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 105px;
+    }
+    
+    .about h1 {
+      text-align: center;
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      box-shadow: 0 0 30px rgba(100, 255, 218, 0.1);
+      padding: 20px;
+      background-color: var(--card-bg);
+      border-radius: 10px;
+    }
+    
+    .about-text {
+      flex: 1 1 100%; 
+    }
+    
+    .about-text p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    
+    .about-text h2 {
+      font-size: 25px;
+      margin-top: 30px;
+    }
+    
+    /* Compétences */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    
+    .skill {
+      padding: 10px 15px;
+      background: rgba(100, 255, 218, 0.1);
+      color: var(--accent-color);
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      white-space: nowrap;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .skill:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Responsive pour petits écrans */
+    @media (max-width: 768px) {
+      .about-content {
+        flex-direction: column;
+        gap: 20px;
+      }
+    
+      .skills {
+        justify-content: center;
+      }
+    }
