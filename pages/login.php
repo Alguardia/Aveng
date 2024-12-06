@@ -56,13 +56,15 @@
     
     <button type="submit" id="loginButton">Se connecter</button>
     <div class="register-a">
-        <a href="javascript:void(0);" id="checkBreachesButton">Vérifier les failles</a>
+    <a href="register.php">Créer un compte</a>
     </div>
     
+    
 </form>
+
 <div class="register-a">
-<a href="register.php">Créer un compte</a>
-</div>
+        <a href="javascript:void(0);" id="checkBreachesButton">Vérifier les failles</a>
+    </div>
 
 <!-- Vérification des failles -->
 
